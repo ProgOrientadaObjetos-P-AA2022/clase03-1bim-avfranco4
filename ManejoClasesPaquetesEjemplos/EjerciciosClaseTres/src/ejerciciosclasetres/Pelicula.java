@@ -12,4 +12,16 @@ package ejerciciosclasetres;
  */
 public class Pelicula {
     int version;
+    
+    public void setVersion(int n){
+        version = n;
+    }
+    
+    public int getVersion(){
+        return version;
+    }
+
+    
 }
+
+
